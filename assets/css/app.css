@@ -316,6 +316,14 @@
     width: 100%;
 }
 
+.pos-center-1 {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    margin-top: 60px;
+    text-align: center;
+}
+
 .hny-title {
     font-size: 30px;
     line-height: 48px;
@@ -348,3 +356,69 @@
 .carousel-item img {
     border-radius: 5px;
 }
+
+.infra li {
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #202020;
+    list-style-type: circle;
+}
+
+/*  */
+
+.box-wrap {
+    margin-top: 30px;
+    padding: 40px 20px;
+    transition: all 0.5s ease 0s;
+    border-radius: 8px;
+    box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03);
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #339e18;
+}
+
+.box-wrap:hover {
+    box-shadow: 0 25px 98px 0 rgba(18, 87, 214, 0.808);
+}
+
+.box-wrap img {
+    max-width: 55px;
+    display: block;
+    margin: 0 auto;
+}
+
+.box-wrap h4 a {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    display: block;
+    color: var(--heading-color);
+    text-decoration: none;
+}
+
+.box-wrap h4 a:hover {
+    color: #49c0b6;
+    text-decoration: none;
+}
+
+.box-wrap p {
+    margin: 0;
+    text-align: center;
+    color: var(--para-color);
+}
+
+.search-box .icon {
+    text-align: center;
+    display: block;
+    color: #7a7a7a;
+}
+
+.icon img {
+    color: #339e18;
+    font-size: 40px;
+}
+
+/* Call for action  */
