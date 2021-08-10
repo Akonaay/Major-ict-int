@@ -3,6 +3,133 @@
     font-family: Poppins;
 }
 
+/*--/address-banner--*/
+
+.w3l-industry-address {
+    display: flex;
+    position: absolute;
+    z-index: 9999;
+    right: 0px;
+    max-width: 700px;
+    margin-top: -120px;
+}
+
+.one-address {
+    background: #339e18;
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px;
+}
+
+.one-address .ad-icon {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background: #27e60d;
+    font-size: 22px;
+}
+
+.one-address .ad-icon span.fa {
+    color: #1f63b1;
+}
+
+.one-address .content p, .one-address .content p a {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+}
+
+.one-address .content p, .one-address.content h5 {
+    color: var(--heading-color);
+}
+
+.one-address:first-child .content p, .one-address:first-child .content h5 {
+    color: #fff;
+}
+
+.one-address .left {
+    margin-right: 25px;
+}
+
+.one-address:first-child {
+    background: #29f60e;
+    border-top-left-radius: 8px;
+}
+
+@media only screen and (max-width:992px) {
+    .one-address .content p, .one-address .content p a {
+        font-size: 18px;
+    }
+    .one-address .content h5 {
+        font-size: 20px;
+    }
+    .one-address {
+        padding: 30px 30px;
+    }
+}
+
+@media only screen and (max-width:873px) {
+    .w3l-industry-address {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:676px) {
+    .w3l-industry-address {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:549px) {
+    .w3l-industry-address {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .w3l-industry-address {
+        display: block;
+        position: absolute;
+        z-index: 99;
+        right: 0px;
+        bottom: 0px;
+        max-width: 300px;
+        margin-top: -120px;
+    }
+    .one-address .content p, .one-address .content p a {
+        font-size: 15px;
+    }
+    .one-address .content h5 {
+        font-size: 16px;
+    }
+    .one-address {
+        padding: 20px 10px;
+    }
+    .one-address .ad-icon {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .one-address {
+        padding: 10px 10px;
+    }
+    .one-address .left {
+        margin-right: 15px;
+    }
+    .one-address .content h5 {
+        font-size: 13px;
+    }
+}
+
+/*--//address-banner--*/
+
 /* Sliders  */
 
 .w3l-banner-slider-main {
