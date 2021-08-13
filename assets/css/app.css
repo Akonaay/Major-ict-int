@@ -660,8 +660,8 @@
 
 .footer-28 .copy-footer-28 {
     color: var(--font-color);
-    margin-bottom: -60px !important;
-    padding: 10px;
+    margin-bottom: -40px !important;
+    padding: 15px;
 }
 
 .links-services ul li {
@@ -746,7 +746,7 @@
     color: #fff;
     width: 38px;
     height: 38px;
-    background: var(--primary-color);
+    background: #7ff022;
     padding: 0;
     line-height: 40px;
     border-radius: 50%;
@@ -754,7 +754,7 @@
 }
 
 .footer-28 #movetop:hover {
-    background: var(--secondary-color);
+    background: #3edb87;
     transform: translate3d(0, -5px, 0);
     -webkit-transform: translate3d(0, -5px, 0);
     transition: 0.3s ease-out;
